@@ -3,33 +3,33 @@ entries:
   hello-rancher:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2022-07-29T01:52:07.46378365-03:00"
+    created: "2022-07-29T02:01:27.31643128-03:00"
     description: Hello Rancher Helm chart
-    digest: b199e37f75f43d06558e0312bf23ef8190e2b473cd4cc347f90fe6d32829bfa0
+    digest: 554387245ff4e2ca508fc83eb08b47285b4ed88581780d70c294f41acc6896ad
     icon: https://techmonitor.ai/wp-content/uploads/sites/4/2020/07/suse2-2.jpg
     name: hello-rancher
     type: application
     urls:
-    - packages/hello-rancher-0.1.0.tgz
+    - https://phsmith.github.io/aula-helm/packages/hello-rancher-0.1.0.tgz
     version: 0.1.0
   phillipe-nginx-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-29T01:52:07.464290769-03:00"
+    created: "2022-07-29T02:01:27.317270896-03:00"
     description: A custom NGNIX Helm chart for Kubernetes
     digest: 07dcbac0402974a147cd4db51db29390f98540a8ad9226c97d93ce1276f666b3
     icon: https://logodownload.org/wp-content/uploads/2018/03/nginx-logo-1.png
     name: phillipe-nginx-chart
     type: application
     urls:
-    - packages/phillipe-nginx-chart-0.1.0.tgz
+    - https://phsmith.github.io/aula-helm/packages/phillipe-nginx-chart-0.1.0.tgz
     version: 0.1.0
   wordpress:
   - annotations:
       category: CMS
     apiVersion: v2
     appVersion: 6.0.1
-    created: "2022-07-29T01:52:07.477523594-03:00"
+    created: "2022-07-29T02:01:27.333077676-03:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -66,6 +66,6 @@ entries:
     - https://github.com/bitnami/bitnami-docker-wordpress
     - https://wordpress.org/
     urls:
-    - packages/wordpress-15.0.12.tgz
+    - https://phsmith.github.io/aula-helm/packages/wordpress-15.0.12.tgz
     version: 15.0.12
-generated: "2022-07-29T01:52:07.463047027-03:00"
+generated: "2022-07-29T02:01:27.315226561-03:00"
