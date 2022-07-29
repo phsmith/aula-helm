@@ -1,6 +1,7 @@
 apiVersion: v2
 name: hello-rancher
 description: Hello Rancher Helm chart
+icon: https://techmonitor.ai/wp-content/uploads/sites/4/2020/07/suse2-2.jpg
 
 # A chart can be either an 'application' or a 'library' chart.
 #
