@@ -14,7 +14,7 @@ Simple Hello World App
 To install the chart with the release name `my-release`:
 
 ```console
-helm repo add smithcharts https://phsmith.github.com/aula-helm
+helm repo add smithcharts https://phsmith.github.io/aula-helm
 helm install my-release smithcharts/hello-rancher
 ```
 ## Uninstalling the Chart
