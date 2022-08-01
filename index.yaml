@@ -3,9 +3,9 @@ entries:
   hello-rancher:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2022-07-29T02:01:27.31643128-03:00"
+    created: "2022-08-01T00:13:03.500163205-03:00"
     description: Hello Rancher Helm chart
-    digest: 554387245ff4e2ca508fc83eb08b47285b4ed88581780d70c294f41acc6896ad
+    digest: 6e00efd5f02a5b77316324abb5ca681c9a8fe8f902979b42d34167eb185bc81d
     icon: https://techmonitor.ai/wp-content/uploads/sites/4/2020/07/suse2-2.jpg
     name: hello-rancher
     type: application
@@ -15,7 +15,7 @@ entries:
   phillipe-nginx-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-29T02:01:27.317270896-03:00"
+    created: "2022-08-01T00:13:03.501182207-03:00"
     description: A custom NGNIX Helm chart for Kubernetes
     digest: 07dcbac0402974a147cd4db51db29390f98540a8ad9226c97d93ce1276f666b3
     icon: https://logodownload.org/wp-content/uploads/2018/03/nginx-logo-1.png
@@ -29,7 +29,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 6.0.1
-    created: "2022-07-29T02:01:27.333077676-03:00"
+    created: "2022-08-01T00:13:03.513319176-03:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -68,4 +68,4 @@ entries:
     urls:
     - https://phsmith.github.io/aula-helm/packages/wordpress-15.0.12.tgz
     version: 15.0.12
-generated: "2022-07-29T02:01:27.315226561-03:00"
+generated: "2022-08-01T00:13:03.499390807-03:00"
